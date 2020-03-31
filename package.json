@@ -1,0 +1,25 @@
+{
+  "name": "brasforno-microservice",
+  "version": "1.0.0",
+  "description": "microservice from basic tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielrab/brasforno-microservice.git"
+  },
+  "author": "@gabrierab and @italoleme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielrab/brasforno-microservice/issues"
+  },
+  "homepage": "https://github.com/gabrielrab/brasforno-microservice#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
