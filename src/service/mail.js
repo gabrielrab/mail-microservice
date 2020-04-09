@@ -9,8 +9,8 @@ exports.send = async (to, subject, body) => {
     content: [
       {
         type: "text/html",
-        value: body
-      }
-    ]
+        value: body,
+      },
+    ],
   });
 };
